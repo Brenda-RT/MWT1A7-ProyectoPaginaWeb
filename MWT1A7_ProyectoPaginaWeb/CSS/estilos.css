@@ -1,0 +1,77 @@
+
+
+*{  /*asterisco se aplica para toda la hoja*/
+	margin:0;/*se le quitan marcos predefinidos por css*/
+	padding:0;
+}
+body {
+	background-color: #ffefd5;
+
+}
+header,.main, footer{
+	width: 90%;
+	max-width: 1000%;
+	margin:20px auto;
+}
+header nav{
+	background: #FFA7A7;
+	overflow:hidden;
+}
+header nav  ul{
+	list-style: none;
+}
+
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	padding: 20px 20px;
+	display: block;
+	color: black;
+	font-size: 20px;
+	font-family: serif;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 2px;
+
+
+}
+header nav ul li a:hover{
+	background-color: #C47273;
+	font-size: 20px;
+}
+
+/*SECTION/*/
+
+.main .wrapper{
+	width: 70%;
+	
+	float: right;
+	background-color: #FFE4E3;
+}
+
+aside{
+    width:30%;
+    background-color:#005C82; 
+    float:right;
+    padding:20px;
+    box-sizing: border-box;
+}
+.main .wrapper article{
+	padding: 20px;
+	background-color: #FFE4E3;
+	border-width: 2px;
+	border-style: groove;
+	border-color: black;
+	
+}
+footer{
+	background:black;
+	color: whi;
+	clear: both;
+	padding: 10px 2px;
+	text-align: center;
+
+}
+.main .wrapper IMG {
+	align-self: center;
